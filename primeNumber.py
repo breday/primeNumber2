@@ -20,4 +20,4 @@ def primeNum(number):
 	
 
 #returnresults
-print(primeNumber(28))
+print(primeNum(28))
