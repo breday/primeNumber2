@@ -1,5 +1,5 @@
 import unittest
-from primeNumber import primeNumber
+from primeNumber import primeNum
 
 
 class primeTestCase(unittest.TestCase):
