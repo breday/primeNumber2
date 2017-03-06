@@ -22,7 +22,7 @@ class primeTestCase(unittest.TestCase):
         self.assertFalse(primeNum(0), msg='zero is not prime!')
 
     def test_negative_number(self):
-        """test if -tive numbers are not  prime"""
+        """test if negative numbers are not  prime"""
         for index in range(-1, -10, -1):
             self.assertFalse(primeNum(index))
 
