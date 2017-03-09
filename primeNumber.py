@@ -12,9 +12,7 @@ def primeNum(number):
     for n in range(2, number):
         if number % n == 0:
             return (number,"is not a Prime number")
-
-    for n in range(2,number):
-	    if (number % 2 == 0) or (number % 5 == 0):
+        elif (number % 2 == 0) or (number % 5 == 0):
 	        return (n," is a Prime Number")
 	        break
 	
