@@ -26,4 +26,4 @@ class primeTestCase(unittest.TestCase):
         self.assertFalse(primeNum(-6), msg=' -6 is not prime!')
 
 if __name__ == '__main__':
-unittest.main()
+   unittest.main()
